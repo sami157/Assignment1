@@ -76,3 +76,41 @@ body {
   margin-top: 10px;
 }
 
+/* action Section Styles */
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px; 
+  margin-top: 50px;
+  padding: 100px 20px;
+  background-color: #f9f9f9;
+  
+}
+
+.left-section {
+  max-width: 450px;
+  padding-left: 20px;
+}
+
+.left-section h3 {
+  font-size: 42px;
+  font-family: 'Raleway', sans-serif;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.left-section p {
+  color: #88889a;
+  
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+
+
+.image-section img {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
