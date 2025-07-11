@@ -287,12 +287,24 @@ box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
-.review-header h5 {
+.review-header h1 {
   font-size: 42px;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
   color: #1a1a1a;
   margin-bottom: 40px;
+}
+.card h6 {
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 16px;
+  font-family: 'inter', sans-serif;
 }
 
 .cards ul {
@@ -320,17 +332,6 @@ box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
 }
 
-.card h6 {
-  font-size: 16px;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-
-.card p {
-  font-size: 14px;
-  color: #555;
-  margin-bottom: 16px;
-}
 
 .reviewer {
   display: flex;
@@ -342,4 +343,36 @@ box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.1);
   width: 35px;
   height: 35px;
   border-radius: 25px;
+}
+footer {
+  background-color: #f9f9ff;
+  padding: 40px 20px;
+  text-align: center;
+}
+footer p {
+  font-size: 14px;
+  color: #88889a;
+  margin: 0;
+}
+footer h1{
+    color:#4E47FF;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'inter', sans-serif;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    color:#88889a ;
+}
+footer ul a{
+    list-style: none;
+}
+footer li a {
+  text-decoration: none;
+  color: #88889a;
+  font-weight: 500;
 }
