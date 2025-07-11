@@ -27,7 +27,7 @@ header {
 /* Basic Styles */
 body {
    font-family: 'Raleway', sans-serif;
-   background: url("../Assets/Hero-bg.png") no-repeat center center fixed;
+   background: url("../Assets/Hero-bg.png") no-repeat fixed;
   
   background-size: cover;
   color: #1f1f1f;
@@ -46,12 +46,13 @@ body {
   font-weight: bold;
   font-size: 14px;
   cursor: pointer;
-  transition: transform 0.3s;
+  transition: transform 0.5s;
+  width :160px;
 }
 
 .primary-btn:hover {
   background-color:#928fde;
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 
@@ -79,16 +80,25 @@ body {
 
 /* action Section Styles */
 .action {
+  background-color: #f9f9f9;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 300px; 
+  gap: 250px; 
   margin-top: 50px;
   padding: 100px 20px;
-  background-color: #f9f9f9;
+ 
   
 }
 
+
+.image-section img {
+  width: 400px;
+  border-radius: 18px;
+box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+
+
+}
 .left-section {
   max-width: 450px;
   padding-left: 20px;
@@ -110,68 +120,58 @@ body {
 
 
 
-.image-section img {
-  width: 300px;
-  border-radius: 18px;
-box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.1);
+/* Productive User Section – Customized Styling */
 
-
+.productive-user-wrapper {
+  padding: 80px 0;
+  background-color: #f9f9f9;
 }
 
-/* productive user Section Styles */
-
 .productive-user-section {
-  background-color: #e9e9ff; 
-  
-  padding: 40px 40px;
-  border-radius: 25px;
-  text-align: center;
-  max-width: 1000px;
   margin: 50px auto;
+  padding: 40px 40px;
+  max-width: 1000px;
+  border-radius: 25px;
+  background-color: #e9e9ff;
+  text-align: center;
 }
 
 .productive-user-section h5 {
-  font-size: 38px;
-  font-family: 'Raleway', sans-serif;
-  color: #1a1a1a;
-  
-  margin-bottom: 40px;
   font-weight: 600;
+  margin-bottom: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 38px;
+  color: #1a1a1a;
 }
 
 .productive-user-stats {
-  font-family: 'Inter', sans-serif;
-  list-style: none;
   display: flex;
+  list-style: none;
   justify-content: space-around;
-  
-  padding: 0;
-  margin: 0;
   flex-wrap: wrap;
+  font-family: 'Inter', sans-serif;
+  padding: 0;
   gap: 10px;
+  margin: 0;
 }
 
 .productive-user-stats li {
-  display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
+  display: flex;
 }
 
 .productive-user-stats li strong {
-  font-size: 80px;
-  color: #4E47FF;
   font-weight: 800;
-  margin-bottom: 5px;
   margin-top: 5px;
+  font-size: 80px;
+  margin-bottom: 5px;
+  color: #4E47FF;
 }
 
 .productive-user-stats li span {
   font-size: 14px;
   color: #88889a;
-}
-.productive-user-wrapper {
-  background-color: #f9f9f9; 
-  padding: 80px 0;           
 }
 
 
@@ -285,6 +285,7 @@ box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.1);
   background-color: #f9f9ff;
   padding: 100px 20px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .review-header h1 {
@@ -328,8 +329,8 @@ box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.1);
 
 .card .stars {
   color: #FFD700;
-  font-size: 16px;
-  margin-bottom: 10px;
+  font-size: 15px;
+  margin-bottom: 8px;
 }
 
 
