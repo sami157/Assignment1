@@ -111,6 +111,60 @@ body {
 
 .image-section img {
   width: 300px;
+  border-radius: 18px;
+
+
+}
+
+
+
+.productive-user-section {
+  background-color: #e9e9ff; 
   border-radius: 20px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 60px 40px;
+  text-align: center;
+  max-width: 1000px;
+  margin: 80px auto;
+}
+
+.productive-user-section h5 {
+  font-size: 38px;
+  font-family: 'Raleway', sans-serif;
+  color: #1a1a1a;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.productive-user-stats {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Inter', sans-serif;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.productive-user-stats li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productive-user-stats li strong {
+  font-size: 80px;
+  color: #4E47FF;
+  font-weight: 800;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.productive-user-stats li span {
+  font-size: 14px;
+  color: #88889a;
+}
+.productive-user-wrapper {
+  background-color: #ffffff; 
+  padding: 80px 0;           
 }
